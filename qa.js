@@ -1,14 +1,14 @@
 
 const readlineSync = require('readline-sync');
 const userName = readlineSync.question('What is your name? ');
-console.log(`Hello, ${userName}! Welcome to the Values and Data Types Quiz.\n`);
+console.log(`Hello, ${userName}! Welcome to the Quiz.\n`);
 
 
-const answer1 = readlineSync.question('1. What is the data type of the value "true"? ');
-const answer2 = readlineSync.questionInt('2. How many primitive data types are there in JavaScript? ');
-const answer3 = readlineSync.question('3. What symbol is used for the "modulus" operator? ');
+const answer1 = readlineSync.question('1. What is the datatype of the value "true"? ');
+const answer2 = readlineSync.questionInt('2. how many conversion are there? ');
+const answer3 = readlineSync.question('3. what are variables? ');
 const answer4 = readlineSync.question('4. Which value represents "nothing" or "empty" in JavaScript? ');
-const answer5 = readlineSync.question('5. What keyword is used to declare a variable that cannot be reassigned? ');
+const answer5 = readlineSync.question('5. what is readlinesync ');
 
 console.log('\n--- Your Quiz Summary ---');
 console.log(`User Name: ${userName}`);
